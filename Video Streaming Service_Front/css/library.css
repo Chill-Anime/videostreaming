@@ -1,0 +1,148 @@
+.Hero_content {
+    display: flex;
+    overflow: hidden;
+    margin: 20px;
+    gap: 10px;
+}
+
+.video1row img  {
+    width: 90vw;
+    height: 675px;
+    object-fit: cover;
+    border-radius: 16px;
+    position: relative
+}
+
+button {
+    height: 60px;
+width: 120px;
+left: 70px;
+top: 602px;
+border-radius: 16px;
+font-size: 21px;
+}
+
+h3 {
+    color: #F2F4F7;
+    font-size: 36px;
+}
+
+
+@keyframes slide {
+    0%{
+        transform: translateX(0%);
+    }
+    100%{
+        transform: translateX(-100%s);
+    }
+}
+
+/*------------featureRow-----------*/
+
+.featureRow {
+    margin: 20px;
+}
+
+.windows1 {
+    display: flex;
+    gap: 10px;
+    overflow: hidden;
+}
+.window9_16 {
+    height: 135px;
+    aspect-ratio: 16/9 !important;
+border-radius: 16px;
+background-color: white;
+
+}
+
+/*-----------newEp----------------*/
+
+.newEp {
+    margin: 20px;
+}
+
+.newEp h3 {
+    color: #F2F4F7;
+    font-size: 36px;
+}
+
+.windows2 {
+    display: flex;
+    gap: 10px;
+    overflow: hidden;
+}
+
+.window16_9 {
+    width: 270px;
+    height: 480px;
+    border-radius: 16px;
+    aspect-ratio: 9/16;
+    background-color: #F2F4F7;
+}
+
+/*-------------action--------------*/
+
+.action {
+    margin: 20px;
+}
+
+.action h3 {
+    color: #F2F4F7;
+    font-size: 36px;
+}
+
+.windows3 {
+    display: flex;
+    gap: 10px;
+    overflow: hidden;
+}
+
+.window9_16_2 {
+    width: 240px;
+    height: 135px;
+    border-radius: 16px;
+    aspect-ratio: 16/9;
+    background-color: #F2F4F7;
+}
+
+/*-------------forKids-------------*/
+
+.forKids {
+    margin: 20px;
+}
+
+.forKids h3 {
+    color: #F2F4F7;
+    font-size: 36px;
+}
+
+.windows4 {
+    display: flex;
+    gap: 10px;
+    overflow: hidden;
+}
+
+.window9_16_3 {
+    width: 240px;
+    height: 135px;
+    border-radius: 16px;
+    aspect-ratio: 16/9;
+    background-color: #F2F4F7;
+}
+
+
+/*----------------signUp-------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
